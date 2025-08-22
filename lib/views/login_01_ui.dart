@@ -70,7 +70,10 @@ class _Login01UiState extends State<Login01Ui> {
                   labelText: 'Password',
                   labelStyle: TextStyle(color: Colors.grey),
                   suffixIcon: InkWell(
-                    child: Icon(Icons.visibility_off),
+                    child: Icon(
+                      Icons.visibility_off,
+                      color: Colors.grey,
+                    ),
                     onTap: () {},
                   ),
                   border: OutlineInputBorder(

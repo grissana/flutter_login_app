@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_login_app/views/login_01_ui.dart';
-// import 'package:flutter_login_app/views/login_02_ui.dart';
-// import 'package:flutter_login_app/views/login_03_ui.dart';
-// import 'package:flutter_login_app/views/login_04_ui.dart';
+import 'package:flutter_login_app/views/login_01_ui.dart';
+import 'package:flutter_login_app/views/login_02_ui.dart';
+import 'package:flutter_login_app/views/login_03_ui.dart';
+import 'package:flutter_login_app/views/login_04_ui.dart';
 import 'package:flutter_login_app/views/login_05_ui.dart';
 
 void main() {
@@ -27,7 +27,7 @@ class _FlutterLoginAppState extends State<FlutterLoginApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false, // ปิดแบนเนอร์ Debug
-      home: Login05Ui(), //เรียกหน้า Home
+      home: Login01Ui(), //เรียกหน้า Home
     );
   }
 }
