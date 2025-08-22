@@ -260,7 +260,7 @@ class _Login02UiState extends State<Login02Ui> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Din\'t have an account?  ',
+                      'Don\'t have an account?  ',
                       style: TextStyle(
                         color: Colors.grey,
                         fontSize: 16,
